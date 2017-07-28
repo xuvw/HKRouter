@@ -10,16 +10,32 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>020C32F18345D92E4BF7A3D09AA38749</key>
+		<key>03043D77DB643E64908E614D8445A32E</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D5E540668A951C7D7BD94C1A8D4A2ABE</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HKRouter.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>03D8AEB6EA9F57CED62D0416B968AFE9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1C48C07F41F17732A69419F451333137</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>0ACDCBCB0B6796575F46FFA2F5410C6B</key>
 		<dict>
@@ -118,18 +134,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1B8344783858BA0A17E8C09ED43C9AD0</key>
+		<key>1C48C07F41F17732A69419F451333137</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ADD2820E6E5F881E0D9778B430A6624A</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>HKRouter-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>209C44FEA12F1E1173EDFD631CEFFD55</key>
 		<dict>
@@ -140,7 +156,7 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>793CF224986A91E9BE8916C327D514DE</string>
+			<string>C3244EB64F658660B3EDA599BB634E1D</string>
 			<key>remoteInfo</key>
 			<string>HKRouter</string>
 		</dict>
@@ -159,18 +175,94 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>2921FFFDD6D28F427AE1A8797AACDA11</key>
+		<key>222C20E2A2FCE23253F13059CC7F8A39</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>27AF70A1133DE26EE04F37A7165DB66C</string>
+				<string>FAE2E40A0284C104AC7F5F5D31701C37</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>24B38F774C746A630AE167E02853B86C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A6D37576BAFB2562B6B9DA17CE6AA3DE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
 			<key>path</key>
-			<string>HKRouter-umbrella.h</string>
+			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27AF70A1133DE26EE04F37A7165DB66C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>58BCD0AA9FB54C3CDDDB76C5E4909BE9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/HKRouter/HKRouter-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/HKRouter/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/HKRouter/HKRouter.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>HKRouter</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -237,6 +329,22 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>3D9404D4572690606FDE6864F68848A5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E58135599426F8AC3E788E6B396BC5B1</string>
+				<string>A31283BF1871C39C2FF9096E0F7B8D8A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>HKRouter</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3DCAB2B7CDE207B3958B6CB957FCC758</key>
 		<dict>
 			<key>children</key>
@@ -257,43 +365,9 @@
 			<key>name</key>
 			<string>HKRouter</string>
 			<key>target</key>
-			<string>793CF224986A91E9BE8916C327D514DE</string>
+			<string>C3244EB64F658660B3EDA599BB634E1D</string>
 			<key>targetProxy</key>
 			<string>209C44FEA12F1E1173EDFD631CEFFD55</string>
-		</dict>
-		<key>3F5A115C0F3BC696E4286DFAEA3F0C34</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>020C32F18345D92E4BF7A3D09AA38749</string>
-				<string>557C756A79C09388A9E73F95C4A4C62E</string>
-				<string>D3209347CA7561FABBC077DD3BE311E9</string>
-				<string>6223DCD8F7DF4C77EE9499B315B57255</string>
-				<string>2921FFFDD6D28F427AE1A8797AACDA11</string>
-				<string>D601AF704C1DEB34F2ACA1FBF0BB35CF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/HKRouter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43CFF93781975E0799ED411F859F61ED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2921FFFDD6D28F427AE1A8797AACDA11</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>4902025524D2B55B4153D60220096BF2</key>
 		<dict>
@@ -309,35 +383,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>4B50FF1338A87099F35ED30359935BAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3209347CA7561FABBC077DD3BE311E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>507835E7375C6AC6312D749FDE4649E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF0A7244B732DEE06FA6A33022A61D7D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5452A7B9EE0DB467BA14823009E1EEEE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4B50FF1338A87099F35ED30359935BAF</string>
-				<string>507835E7375C6AC6312D749FDE4649E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>557C756A79C09388A9E73F95C4A4C62E</key>
+		<key>58BCD0AA9FB54C3CDDDB76C5E4909BE9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -363,7 +409,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>6223DCD8F7DF4C77EE9499B315B57255</key>
+		<key>5F607A0C402530A24C43FDC92E2F3980</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -372,22 +418,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>HKRouter-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C20A691BC215D44344B28F6800D28B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E487994F4FF1CEC2D2A55FBD76711603</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>HKRouter</string>
-			<key>path</key>
-			<string>HKRouter</string>
+			<string>HKTools.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -414,22 +445,6 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72C03AA2C3910FABCE3B030E0D5BD9A0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6C20A691BC215D44344B28F6800D28B0</string>
-				<string>3F5A115C0F3BC696E4286DFAEA3F0C34</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>HKRouter</string>
-			<key>path</key>
-			<string>../..</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -460,31 +475,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>793CF224986A91E9BE8916C327D514DE</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>940CE204721CC50BC5D415ADEC0573B2</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5452A7B9EE0DB467BA14823009E1EEEE</string>
-				<string>1B8344783858BA0A17E8C09ED43C9AD0</string>
-				<string>7CC97AE039051D7E093ED2F3259547D5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HKRouter</string>
-			<key>productName</key>
-			<string>HKRouter</string>
-			<key>productReference</key>
-			<string>213E2CDD9DF72E6133F91C3138CD220A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
 		<key>7B960C90C20880E45D7CD353D4186047</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -492,19 +482,6 @@
 			<key>files</key>
 			<array>
 				<string>4902025524D2B55B4153D60220096BF2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CC97AE039051D7E093ED2F3259547D5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>43CFF93781975E0799ED411F859F61ED</string>
 			</array>
 			<key>isa</key>
 			<string>PBXHeadersBuildPhase</string>
@@ -526,65 +503,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8CA0B56F339C5C0C00A60DDE8F51D875</key>
+		<key>7E8F1D1FD5FD0C640147E2C41BC75E2D</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>557C756A79C09388A9E73F95C4A4C62E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/HKRouter/HKRouter-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/HKRouter/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/HKRouter/HKRouter.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>HKRouter</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BBD169EF6393CF7B09FFA65C3F30B012</string>
+				<string>EB5A3C319AC54B079577397EF614F773</string>
+				<string>CBE82379EBB19935A7ED40E1E51957C5</string>
+			</array>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>91D54DDAAF32EEB51C86378BF060769C</key>
 		<dict>
@@ -680,19 +612,18 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>940CE204721CC50BC5D415ADEC0573B2</key>
+		<key>9A4373B0F67862098B3B3AF8E9491149</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B8C530341254AF5E3EAD33BA71E2AE9D</string>
-				<string>8CA0B56F339C5C0C00A60DDE8F51D875</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>HKRouter-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9AF046DE779049C8B7528561E1F8B98B</key>
 		<dict>
@@ -718,6 +649,26 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A31283BF1871C39C2FF9096E0F7B8D8A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C292A16615A1F8B596BA3CFF90D4FEBF</string>
+				<string>58BCD0AA9FB54C3CDDDB76C5E4909BE9</string>
+				<string>9A4373B0F67862098B3B3AF8E9491149</string>
+				<string>A8317905E3FA143DE016DC3125582532</string>
+				<string>1C48C07F41F17732A69419F451333137</string>
+				<string>DA7F38225879FF446C383E07A882B89D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/HKRouter</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A66CC9AC09A9A24B6427933E8202E42B</key>
 		<dict>
 			<key>fileRef</key>
@@ -725,12 +676,31 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>ADD2820E6E5F881E0D9778B430A6624A</key>
+		<key>A6D37576BAFB2562B6B9DA17CE6AA3DE</key>
 		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ReplaceMe.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A8317905E3FA143DE016DC3125582532</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>HKRouter-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>AFF677A8F9CCFC81512AF7CB81E29C96</key>
 		<dict>
@@ -759,66 +729,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B8C530341254AF5E3EAD33BA71E2AE9D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>557C756A79C09388A9E73F95C4A4C62E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/HKRouter/HKRouter-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/HKRouter/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/HKRouter/HKRouter.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>HKRouter</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
 		<key>B989E3FD49A6EB31B9BDA7FA993E803C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -831,6 +741,13 @@
 			<string>Pods-HKRouter_Tests-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BBD169EF6393CF7B09FFA65C3F30B012</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9A4373B0F67862098B3B3AF8E9491149</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
 		<dict>
@@ -845,7 +762,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BF0A7244B732DEE06FA6A33022A61D7D</key>
+		<key>BE79F643808EED127403D6584B2A1FB5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -854,9 +771,59 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ReplaceMe.m</string>
+			<string>HKTools.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C292A16615A1F8B596BA3CFF90D4FEBF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>HKRouter.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C3244EB64F658660B3EDA599BB634E1D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>222C20E2A2FCE23253F13059CC7F8A39</string>
+			<key>buildPhases</key>
+			<array>
+				<string>7E8F1D1FD5FD0C640147E2C41BC75E2D</string>
+				<string>03043D77DB643E64908E614D8445A32E</string>
+				<string>F8243C787CE09220A2583E46D8CDDD9F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>HKRouter</string>
+			<key>productName</key>
+			<string>HKRouter</string>
+			<key>productReference</key>
+			<string>213E2CDD9DF72E6133F91C3138CD220A</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>C3A01B85C89DE7338C4A4402F29DA81A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5F607A0C402530A24C43FDC92E2F3980</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>C93C1EB90FFAA2292422F583A2DC788A</key>
 		<dict>
@@ -926,6 +893,29 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>CA16E159EFBB461B138EF07D7B0B0007</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5F607A0C402530A24C43FDC92E2F3980</string>
+				<string>BE79F643808EED127403D6584B2A1FB5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>HKTools</string>
+			<key>path</key>
+			<string>HKTools</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CBE82379EBB19935A7ED40E1E51957C5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A6D37576BAFB2562B6B9DA17CE6AA3DE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
 		<dict>
 			<key>isa</key>
@@ -952,24 +942,11 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>D3209347CA7561FABBC077DD3BE311E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HKRouter-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D3C3C01F7E48C46CBBD37EEFB9A15A5F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>72C03AA2C3910FABCE3B030E0D5BD9A0</string>
+				<string>3D9404D4572690606FDE6864F68848A5</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1091,11 +1068,18 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>793CF224986A91E9BE8916C327D514DE</string>
+				<string>C3244EB64F658660B3EDA599BB634E1D</string>
 				<string>2F759D14DC47417C3A53CDDDFCC00A70</string>
 			</array>
 		</dict>
-		<key>D601AF704C1DEB34F2ACA1FBF0BB35CF</key>
+		<key>D5E540668A951C7D7BD94C1A8D4A2ABE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DA7F38225879FF446C383E07A882B89D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1108,20 +1092,42 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E487994F4FF1CEC2D2A55FBD76711603</key>
+		<key>E58135599426F8AC3E788E6B396BC5B1</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>BF0A7244B732DEE06FA6A33022A61D7D</string>
+				<string>24B38F774C746A630AE167E02853B86C</string>
+				<string>CA16E159EFBB461B138EF07D7B0B0007</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Classes</string>
+			<string>HKRouter</string>
 			<key>path</key>
-			<string>Classes</string>
+			<string>HKRouter</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EB5A3C319AC54B079577397EF614F773</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BE79F643808EED127403D6584B2A1FB5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F8243C787CE09220A2583E46D8CDDD9F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>03D8AEB6EA9F57CED62D0416B968AFE9</string>
+				<string>C3A01B85C89DE7338C4A4402F29DA81A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>F9EF297A066B51D0C9FB7DA70A5D6CBE</key>
 		<dict>
@@ -1137,6 +1143,66 @@
 			<string>Pods-HKRouter_Tests.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>FAE2E40A0284C104AC7F5F5D31701C37</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>58BCD0AA9FB54C3CDDDB76C5E4909BE9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/HKRouter/HKRouter-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/HKRouter/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/HKRouter/HKRouter.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>HKRouter</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>FAF81E8BE17B85DDE2A588A669E5AA04</key>
 		<dict>

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HKRouter'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '统跳路由库。。。'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HKRouter/Classes/**/*'
+  s.source_files = 'HKRouter/Classes/**/*', 'HKRouter/HKTools/**/*'
   
   # s.resource_bundles = {
   #   'HKRouter' => ['HKRouter/Assets/*.png']
