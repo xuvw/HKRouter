@@ -1,0 +1,6 @@
+framework module HKRouter {
+  umbrella header "HKRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
