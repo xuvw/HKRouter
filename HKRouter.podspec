@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HKRouter'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '统跳路由库。。。'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'HKModels' |models|
+    s.source_files = 'HKRouter/HKModels/**/*'  
+  end
 end
