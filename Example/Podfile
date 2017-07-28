@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HKRouter_Tests' do
+  pod 'HKRouter', :path => '../'
+  
+  
+end
